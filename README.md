@@ -25,6 +25,12 @@ cd video-steganography
 uv add opencv-python numpy
 ```
 
+3. Or Simply Run:
+
+```bash
+uv sync
+```
+
 ## 📖 How It Works
 
 The tool uses LSB (Least Significant Bit) steganography in the blue channel of video frames:
